@@ -1,0 +1,142 @@
+*, :before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+
+/*HEADER*/
+.header {
+    box-shadow: 0 1px 0 #E5E9F2;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 1110px;
+    margin: 22px 165px;
+    padding-bottom: 22px;
+}
+
+img {
+display: block;
+}
+
+.logo {
+    padding-top: 7px;
+}
+
+.nav {
+    margin-left: 32px;
+}
+
+.nav a {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 32px;
+    text-decoration: none;
+    color: #18191F
+}
+
+.icon {
+    margin-left: auto;
+    display: flex;
+}
+
+.google {
+    padding-left: 12px;
+}
+
+/*MAIN*/
+.main {}
+
+.main-container {
+    margin-top: 210px;
+    margin-bottom: 197px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-text {
+    margin: 30px 19px 0 165px;
+    width: 540px;
+    height: 370px;
+}
+
+.header-text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+    color: #18191F;
+}
+
+.center-text {
+    font-family: 'Manrope', sans-serif;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #18191F;
+}
+
+.bottom-text {
+    margin: 32px 256px 0 0;
+    background-color: #8C30F5;
+    border-radius: 8px;
+    width: 284px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.bottom-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-image {
+    margin: 0 173px 197px 19px;
+    width: 524px;
+    height: 400px;
+}
+
+/*FOOTER*/
+.footer {
+    height: 72px;
+    background-color: #0B0D17;
+}
+
+.footer-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 19px;
+}
+
+.footer-text {
+    margin-right: 328px;
+    width: 270px;
+    height: 24px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-icon {
+    margin-left: 328px;
+    width: 184px;
+    height: 34px;
+    display: flex;
+}
+
+.footer-icon a {
+    margin-left: 16px;
+}
+
